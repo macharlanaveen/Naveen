@@ -51,9 +51,15 @@ C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger
 C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
 C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\IMDBBAL.dll
 C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\IMDBCommonUtility.dll
@@ -63,7 +69,8 @@ C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\IMDBBAL.pdb
 C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\IMDBCommonUtility.pdb
 C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\IMDBDTOModel.pdb
 C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\IMDBDAL.pdb
-C:\nani\Naveen\IMDBWebAPI\obj\Debug\netcoreapp3.1\IMDBWebAPI.csprojAssemblyReference.cache
+C:\nani\Naveen\IMDBWebAPI\obj\Debug\netcoreapp3.1\IMDBWebAPI.csproj.AssemblyReference.cache
+C:\nani\Naveen\IMDBWebAPI\obj\Debug\netcoreapp3.1\IMDBWebAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\nani\Naveen\IMDBWebAPI\obj\Debug\netcoreapp3.1\IMDBWebAPI.AssemblyInfoInputs.cache
 C:\nani\Naveen\IMDBWebAPI\obj\Debug\netcoreapp3.1\IMDBWebAPI.AssemblyInfo.cs
 C:\nani\Naveen\IMDBWebAPI\obj\Debug\netcoreapp3.1\IMDBWebAPI.csproj.CoreCompileInputs.cache

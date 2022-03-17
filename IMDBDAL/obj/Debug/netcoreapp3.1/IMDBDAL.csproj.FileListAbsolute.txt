@@ -5,7 +5,8 @@ C:\nani\Naveen\IMDBDAL\bin\Debug\netcoreapp3.1\IMDBDAL.dll
 C:\nani\Naveen\IMDBDAL\bin\Debug\netcoreapp3.1\IMDBDAL.pdb
 C:\nani\Naveen\IMDBDAL\bin\Debug\netcoreapp3.1\IMDBCommonUtility.dll
 C:\nani\Naveen\IMDBDAL\bin\Debug\netcoreapp3.1\IMDBCommonUtility.pdb
-C:\nani\Naveen\IMDBDAL\obj\Debug\netcoreapp3.1\IMDBDAL.csprojAssemblyReference.cache
+C:\nani\Naveen\IMDBDAL\obj\Debug\netcoreapp3.1\IMDBDAL.csproj.AssemblyReference.cache
+C:\nani\Naveen\IMDBDAL\obj\Debug\netcoreapp3.1\IMDBDAL.GeneratedMSBuildEditorConfig.editorconfig
 C:\nani\Naveen\IMDBDAL\obj\Debug\netcoreapp3.1\IMDBDAL.AssemblyInfoInputs.cache
 C:\nani\Naveen\IMDBDAL\obj\Debug\netcoreapp3.1\IMDBDAL.AssemblyInfo.cs
 C:\nani\Naveen\IMDBDAL\obj\Debug\netcoreapp3.1\IMDBDAL.csproj.CoreCompileInputs.cache
