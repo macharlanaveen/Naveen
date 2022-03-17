@@ -1,0 +1,10 @@
+2020-12-03 11:25:14.2112 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Entry ProductController=> AddProduct
+2020-12-03 11:25:16.3683 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Entry ProductService=> AddContactUs
+2020-12-03 11:25:17.9864 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Entry ProductRepository=> AddProduct
+2020-12-03 11:25:26.7654 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Exit ProductRepository=> AddProduct
+2020-12-03 11:26:59.6262 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 14:: Entry ProductController=> AddProduct
+2020-12-03 11:27:01.7158 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 14:: Entry ProductService=> AddContactUs
+2020-12-03 11:27:05.7670 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 14:: Entry ProductRepository=> AddProduct
+2020-12-03 11:27:15.5575 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 14:: Exit ProductRepository=> AddProduct
+2020-12-03 11:27:23.4496 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 14:: Product Save Successfully.
+2020-12-03 11:27:26.3407 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 14:: Exit ProductController=> AddProduct

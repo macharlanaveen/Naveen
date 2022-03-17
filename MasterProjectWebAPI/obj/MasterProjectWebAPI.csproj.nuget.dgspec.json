@@ -1,0 +1,357 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\nani\\Naveen\\MasterProjectWebAPI\\MasterProjectWebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\nani\\Naveen\\MasterProjectBAL\\MasterProjectBAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\nani\\Naveen\\MasterProjectBAL\\MasterProjectBAL.csproj",
+        "projectName": "MasterProjectBAL",
+        "projectPath": "C:\\nani\\Naveen\\MasterProjectBAL\\MasterProjectBAL.csproj",
+        "packagesPath": "C:\\Users\\Deepak\\.nuget\\packages\\",
+        "outputPath": "C:\\nani\\Naveen\\MasterProjectBAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deepak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\nani\\Naveen\\MasterProjectCommonUtility\\MasterProjectCommonUtility.csproj": {
+                "projectPath": "C:\\nani\\Naveen\\MasterProjectCommonUtility\\MasterProjectCommonUtility.csproj"
+              },
+              "C:\\nani\\Naveen\\MasterProjectDAL\\MasterProjectDAL.csproj": {
+                "projectPath": "C:\\nani\\Naveen\\MasterProjectDAL\\MasterProjectDAL.csproj"
+              },
+              "C:\\nani\\Naveen\\MasterProjectDTOModel\\MasterProjectDTOModel.csproj": {
+                "projectPath": "C:\\nani\\Naveen\\MasterProjectDTOModel\\MasterProjectDTOModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\nani\\Naveen\\MasterProjectCommonUtility\\MasterProjectCommonUtility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\nani\\Naveen\\MasterProjectCommonUtility\\MasterProjectCommonUtility.csproj",
+        "projectName": "MasterProjectCommonUtility",
+        "projectPath": "C:\\nani\\Naveen\\MasterProjectCommonUtility\\MasterProjectCommonUtility.csproj",
+        "packagesPath": "C:\\Users\\Deepak\\.nuget\\packages\\",
+        "outputPath": "C:\\nani\\Naveen\\MasterProjectCommonUtility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deepak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\nani\\Naveen\\MasterProjectDAL\\MasterProjectDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\nani\\Naveen\\MasterProjectDAL\\MasterProjectDAL.csproj",
+        "projectName": "MasterProjectDAL",
+        "projectPath": "C:\\nani\\Naveen\\MasterProjectDAL\\MasterProjectDAL.csproj",
+        "packagesPath": "C:\\Users\\Deepak\\.nuget\\packages\\",
+        "outputPath": "C:\\nani\\Naveen\\MasterProjectDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deepak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\nani\\Naveen\\MasterProjectCommonUtility\\MasterProjectCommonUtility.csproj": {
+                "projectPath": "C:\\nani\\Naveen\\MasterProjectCommonUtility\\MasterProjectCommonUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\nani\\Naveen\\MasterProjectDTOModel\\MasterProjectDTOModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\nani\\Naveen\\MasterProjectDTOModel\\MasterProjectDTOModel.csproj",
+        "projectName": "MasterProjectDTOModel",
+        "projectPath": "C:\\nani\\Naveen\\MasterProjectDTOModel\\MasterProjectDTOModel.csproj",
+        "packagesPath": "C:\\Users\\Deepak\\.nuget\\packages\\",
+        "outputPath": "C:\\nani\\Naveen\\MasterProjectDTOModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deepak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\nani\\Naveen\\MasterProjectWebAPI\\MasterProjectWebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\nani\\Naveen\\MasterProjectWebAPI\\MasterProjectWebAPI.csproj",
+        "projectName": "MasterProjectWebAPI",
+        "projectPath": "C:\\nani\\Naveen\\MasterProjectWebAPI\\MasterProjectWebAPI.csproj",
+        "packagesPath": "C:\\Users\\Deepak\\.nuget\\packages\\",
+        "outputPath": "C:\\nani\\Naveen\\MasterProjectWebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deepak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\nani\\Naveen\\MasterProjectBAL\\MasterProjectBAL.csproj": {
+                "projectPath": "C:\\nani\\Naveen\\MasterProjectBAL\\MasterProjectBAL.csproj"
+              },
+              "C:\\nani\\Naveen\\MasterProjectCommonUtility\\MasterProjectCommonUtility.csproj": {
+                "projectPath": "C:\\nani\\Naveen\\MasterProjectCommonUtility\\MasterProjectCommonUtility.csproj"
+              },
+              "C:\\nani\\Naveen\\MasterProjectDTOModel\\MasterProjectDTOModel.csproj": {
+                "projectPath": "C:\\nani\\Naveen\\MasterProjectDTOModel\\MasterProjectDTOModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
