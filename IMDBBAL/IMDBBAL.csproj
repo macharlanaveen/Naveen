@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IMDBCommonUtility\IMDBCommonUtility.csproj" />
+    <ProjectReference Include="..\IMDBDAL\IMDBDAL.csproj" />
+    <ProjectReference Include="..\IMDBDTOModel\IMDBDTOModel.csproj" />
+  </ItemGroup>
+
+</Project>

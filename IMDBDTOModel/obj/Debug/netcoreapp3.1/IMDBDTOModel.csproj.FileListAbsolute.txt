@@ -1,0 +1,9 @@
+C:\nani\Naveen\IMDBDTOModel\bin\Debug\netcoreapp3.1\IMDBDTOModel.deps.json
+C:\nani\Naveen\IMDBDTOModel\bin\Debug\netcoreapp3.1\IMDBDTOModel.dll
+C:\nani\Naveen\IMDBDTOModel\bin\Debug\netcoreapp3.1\IMDBDTOModel.pdb
+C:\nani\Naveen\IMDBDTOModel\obj\Debug\netcoreapp3.1\IMDBDTOModel.csprojAssemblyReference.cache
+C:\nani\Naveen\IMDBDTOModel\obj\Debug\netcoreapp3.1\IMDBDTOModel.AssemblyInfoInputs.cache
+C:\nani\Naveen\IMDBDTOModel\obj\Debug\netcoreapp3.1\IMDBDTOModel.AssemblyInfo.cs
+C:\nani\Naveen\IMDBDTOModel\obj\Debug\netcoreapp3.1\IMDBDTOModel.csproj.CoreCompileInputs.cache
+C:\nani\Naveen\IMDBDTOModel\obj\Debug\netcoreapp3.1\IMDBDTOModel.dll
+C:\nani\Naveen\IMDBDTOModel\obj\Debug\netcoreapp3.1\IMDBDTOModel.pdb

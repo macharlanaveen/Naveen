@@ -1,0 +1,8 @@
+C:\nani\Naveen\IMDBCommonUtility\bin\Debug\netcoreapp3.1\IMDBCommonUtility.deps.json
+C:\nani\Naveen\IMDBCommonUtility\bin\Debug\netcoreapp3.1\IMDBCommonUtility.dll
+C:\nani\Naveen\IMDBCommonUtility\bin\Debug\netcoreapp3.1\IMDBCommonUtility.pdb
+C:\nani\Naveen\IMDBCommonUtility\obj\Debug\netcoreapp3.1\IMDBCommonUtility.AssemblyInfoInputs.cache
+C:\nani\Naveen\IMDBCommonUtility\obj\Debug\netcoreapp3.1\IMDBCommonUtility.AssemblyInfo.cs
+C:\nani\Naveen\IMDBCommonUtility\obj\Debug\netcoreapp3.1\IMDBCommonUtility.csproj.CoreCompileInputs.cache
+C:\nani\Naveen\IMDBCommonUtility\obj\Debug\netcoreapp3.1\IMDBCommonUtility.dll
+C:\nani\Naveen\IMDBCommonUtility\obj\Debug\netcoreapp3.1\IMDBCommonUtility.pdb

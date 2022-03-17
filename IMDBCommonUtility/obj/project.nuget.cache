@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yEapRRRjLSFGtZS9rkuap60fnqjr2Cq3/jzIn5TrV7KSpub+aC77Kq7xTqiPl2PJbi3HzBbNIxSfDx6o8gV9Xw==",
+  "success": true,
+  "projectFilePath": "C:\\nani\\Naveen\\IMDBCommonUtility\\IMDBCommonUtility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Deepak\\.nuget\\packages\\nlog\\4.7.5\\nlog.4.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}
