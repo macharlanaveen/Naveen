@@ -40,8 +40,14 @@ namespace IMDBDAL.DataModel
 
                 entity.Property(e => e.IdActor).HasColumnName("idActor");
 
-                entity.Property(e => e.ActorName)
+                entity.Property(e => e.Bio)
                     .HasMaxLength(45)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.DateOfBirth).HasColumnType("date");
+
+                entity.Property(e => e.Gender)
+                    .HasMaxLength(10)
                     .IsUnicode(false);
             });
 
@@ -86,8 +92,18 @@ namespace IMDBDAL.DataModel
 
                 entity.Property(e => e.IdProducer).HasColumnName("idProducer");
 
-                entity.Property(e => e.ProducerName)
+                entity.Property(e => e.Bio)
                     .HasMaxLength(45)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.CompanyName)
+                    .HasMaxLength(45)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.DateOfBirth).HasColumnType("date");
+
+                entity.Property(e => e.Gender)
+                    .HasMaxLength(10)
                     .IsUnicode(false);
             });
 

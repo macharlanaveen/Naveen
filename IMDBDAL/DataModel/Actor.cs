@@ -11,7 +11,9 @@ namespace IMDBDAL.DataModel
         }
 
         public int IdActor { get; set; }
-        public string ActorName { get; set; }
+        public string Bio { get; set; }
+        public DateTime? DateOfBirth { get; set; }
+        public string Gender { get; set; }
 
         public virtual ICollection<Movie> Movie { get; set; }
     }
