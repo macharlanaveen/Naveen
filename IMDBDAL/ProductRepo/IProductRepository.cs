@@ -8,6 +8,6 @@ namespace MasterProjectDAL.Product
 {
     public interface IProductRepository
     {
-        Task<DataModel.Product> AddProduct(DataModel.Product product);
+        //Task<DataModel.Product> AddProduct(DataModel.Product product);
     }
 }

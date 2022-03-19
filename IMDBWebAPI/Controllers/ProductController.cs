@@ -26,30 +26,30 @@ namespace MasterProjectWebAPI.Controllers
             _productService = productService;
         }
 
-        [HttpPost]
-        [Route("[action]")]
-        public async Task<IActionResult> AddProduct([FromBody]ProductRequest_DTO request_DTO)
-        {
-            ResultWithDataDTO<ProductResponse_DTO> resultWithDataDTO =
-                new ResultWithDataDTO<ProductResponse_DTO> { IsSuccessful = false };
+        //[HttpPost]
+        //[Route("[action]")]
+        //public async Task<IActionResult> AddProduct([FromBody]ProductRequest_DTO request_DTO)
+        //{
+        //    ResultWithDataDTO<ProductResponse_DTO> resultWithDataDTO =
+        //        new ResultWithDataDTO<ProductResponse_DTO> { IsSuccessful = false };
 
-            if (request_DTO == null)
-            {
-                resultWithDataDTO.IsBusinessError = true;
-                resultWithDataDTO.BusinessErrorMessage = "Error,Product Information posted to the Server is empty. Kindly retry, or contact System Admin.";
-                return BadRequest(resultWithDataDTO);
-            }
+        //    if (request_DTO == null)
+        //    {
+        //        resultWithDataDTO.IsBusinessError = true;
+        //        resultWithDataDTO.BusinessErrorMessage = "Error,Product Information posted to the Server is empty. Kindly retry, or contact System Admin.";
+        //        return BadRequest(resultWithDataDTO);
+        //    }
             
-            _loggerManager.LogInfo("Entry ProductController=> AddProduct");
+        //    _loggerManager.LogInfo("Entry ProductController=> AddProduct");
             
-            resultWithDataDTO = await _productService.AddProduct(request_DTO);
+        //    resultWithDataDTO = await _productService.AddProduct(request_DTO);
             
-            _loggerManager.LogInfo("Exit ProductController=> AddProduct");
+        //    _loggerManager.LogInfo("Exit ProductController=> AddProduct");
             
-            if (resultWithDataDTO.IsSuccessful)
-            { return Ok(resultWithDataDTO); }
-            else { return BadRequest(resultWithDataDTO); }
-        }
+        //    if (resultWithDataDTO.IsSuccessful)
+        //    { return Ok(resultWithDataDTO); }
+        //    else { return BadRequest(resultWithDataDTO); }
+        //}
 
     }
 }

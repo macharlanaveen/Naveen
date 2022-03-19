@@ -84,3 +84,11 @@ C:\nani\Naveen\IMDBWebAPI\obj\Debug\netcoreapp3.1\IMDBWebAPI.csproj.CopyComplete
 C:\nani\Naveen\IMDBWebAPI\obj\Debug\netcoreapp3.1\IMDBWebAPI.dll
 C:\nani\Naveen\IMDBWebAPI\obj\Debug\netcoreapp3.1\IMDBWebAPI.pdb
 C:\nani\Naveen\IMDBWebAPI\obj\Debug\netcoreapp3.1\IMDBWebAPI.genruntimeconfig.cache
+C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\nani\Naveen\IMDBWebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll

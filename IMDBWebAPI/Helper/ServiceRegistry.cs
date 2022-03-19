@@ -1,4 +1,5 @@
-﻿using MasterProjectBAL.Product;
+﻿using IMDBDAL.DataModel;
+using MasterProjectBAL.Product;
 using MasterProjectCommonUtility.Configuration;
 using MasterProjectCommonUtility.Logger;
 using MasterProjectDAL.DataModel;
@@ -31,7 +32,7 @@ namespace MasterProjectWebAPI.Helper
         public void ConfigureDataContext(IServiceCollection services, AppsettingsConfig appSettings)
         {
             var connString = appSettings.MasterProjectData.ConnectToDb.ConnectionString;
-            services.AddDbContextPool<IMasterProjectContext, MasterProjectContext>(options =>
+            services.AddDbContextPool<InaveendbContext, naveendbContext>(options =>
             {
                 options.UseMySQL(connString);
             }, 500);

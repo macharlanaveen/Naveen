@@ -12,10 +12,10 @@ namespace MasterProjectWebAPI.AutoMapperProfile
     {
         public AutoMapperProfile()
         {
-            #region Product
-            CreateMap<ProductRequest_DTO, Product>();
-            CreateMap<Product,ProductResponse_DTO>();
-            #endregion
+            //#region Product
+            //CreateMap<ProductRequest_DTO, Product>();
+            //CreateMap<Product,ProductResponse_DTO>();
+            //#endregion
         }
     }
 }

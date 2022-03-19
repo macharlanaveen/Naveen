@@ -14,3 +14,8 @@ C:\nani\Naveen\IMDBDAL\obj\Debug\netcoreapp3.1\IMDBDAL.csproj.CopyComplete
 C:\nani\Naveen\IMDBDAL\obj\Debug\netcoreapp3.1\IMDBDAL.dll
 C:\nani\Naveen\IMDBDAL\obj\Debug\netcoreapp3.1\IMDBDAL.pdb
 C:\nani\Naveen\IMDBDAL\obj\Debug\netcoreapp3.1\IMDBDAL.genruntimeconfig.cache
+C:\nani\Naveen\IMDBDAL\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Schema.Sql.dll
+C:\nani\Naveen\IMDBDAL\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\nani\Naveen\IMDBDAL\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\nani\Naveen\IMDBDAL\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Utilities.dll
+C:\nani\Naveen\IMDBDAL\bin\Debug\netcoreapp3.1\Microsoft.SqlServer.TransactSql.ScriptDom.dll

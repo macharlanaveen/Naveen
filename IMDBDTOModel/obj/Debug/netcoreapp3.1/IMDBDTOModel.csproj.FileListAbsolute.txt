@@ -7,3 +7,4 @@ C:\nani\Naveen\IMDBDTOModel\obj\Debug\netcoreapp3.1\IMDBDTOModel.AssemblyInfo.cs
 C:\nani\Naveen\IMDBDTOModel\obj\Debug\netcoreapp3.1\IMDBDTOModel.csproj.CoreCompileInputs.cache
 C:\nani\Naveen\IMDBDTOModel\obj\Debug\netcoreapp3.1\IMDBDTOModel.dll
 C:\nani\Naveen\IMDBDTOModel\obj\Debug\netcoreapp3.1\IMDBDTOModel.pdb
+C:\nani\Naveen\IMDBDTOModel\obj\Debug\netcoreapp3.1\IMDBDTOModel.csproj.AssemblyReference.cache
