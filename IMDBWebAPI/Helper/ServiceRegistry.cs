@@ -5,11 +5,9 @@ using IMDBDAL.ActorRepo;
 using IMDBDAL.DataModel;
 using IMDBDAL.MovieRepo;
 using IMDBDAL.ProducerRepo;
-using MasterProjectBAL.Product;
 using MasterProjectCommonUtility.Configuration;
 using MasterProjectCommonUtility.Logger;
 using MasterProjectDAL.DataModel;
-using MasterProjectDAL.Product;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -24,14 +22,12 @@ namespace MasterProjectWebAPI.Helper
         public void ConfigureDependencies(IServiceCollection services, AppsettingsConfig appSettings)
         {
             #region Bussiness Layer
-            services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IProducerService, ProducerService>();
             services.AddScoped<IMovieService, MovieService>();
             services.AddScoped<IActorService, ActorService>();
             #endregion
 
             #region Data Layer
-            services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IProducerRepository, ProducerRepository>();
             services.AddScoped<IMovieRepository, MovieRepository>();
             services.AddScoped<IActorRepository, ActorRepository>();

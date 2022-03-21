@@ -1,5 +1,5 @@
-﻿using IMDBBAL.Actor;
-using IMDBDTOModel.Actor;
+﻿using IMDBBAL.Producer;
+using IMDBDTOModel.Producer;
 using MasterProjectCommonUtility.Logger;
 using MasterProjectCommonUtility.Response;
 using Microsoft.AspNetCore.Http;
@@ -13,19 +13,19 @@ namespace IMDBWebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ActorController : ControllerBase
+    public class ProducerController : ControllerBase
     {
         private readonly ILoggerManager _loggerManager;
-        private readonly IActorService _actorService;
+        private readonly IProducerService _producerService;
 
-        public ActorController(ILoggerManager loggerManager, IActorService actorService)
+        public ProducerController(ILoggerManager loggerManager, IProducerService producerService)
         {
             _loggerManager = loggerManager;
-            _actorService = actorService;
+            _producerService = producerService;
         }
         [HttpPost]
         [Route("[action]")]
-        public async Task<IActionResult> AddActor([FromBody] AddActorRequestDTO request_DTO)
+        public async Task<IActionResult> AddProducer([FromBody] AddProducerRequestDTO request_DTO)
         {
             ResultWithDataDTO<int> resultWithDataDTO =
                 new ResultWithDataDTO<int> { IsSuccessful = false };
@@ -37,11 +37,11 @@ namespace IMDBWebAPI.Controllers
                 return BadRequest(resultWithDataDTO);
             }
 
-            _loggerManager.LogInfo("Entry ActorController=> AddActor");
+            _loggerManager.LogInfo("Entry ProducerController=> AddProducer");
 
-            resultWithDataDTO = await _actorService.AddActor(request_DTO);
+            resultWithDataDTO = await _producerService.AddProducer(request_DTO);
 
-            _loggerManager.LogInfo("Exit ActorController=> AddActor");
+            _loggerManager.LogInfo("Exit ProducerController=> AddProducer");
 
             if (resultWithDataDTO.IsSuccessful)
             { return Ok(resultWithDataDTO); }

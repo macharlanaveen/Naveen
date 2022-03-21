@@ -9,6 +9,6 @@ namespace IMDBBAL.Producer
 {
     public interface IProducerService
     {
-        Task<ResultWithDataDTO<int>> AddProducer(ADDProducerRequestDTO request_DTO);
+        Task<ResultWithDataDTO<int>> AddProducer(AddProducerRequestDTO request_DTO);
     }
 }

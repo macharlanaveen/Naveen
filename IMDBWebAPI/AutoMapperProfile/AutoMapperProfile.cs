@@ -4,7 +4,6 @@ using IMDBDTOModel.Actor;
 using IMDBDTOModel.Movie;
 using IMDBDTOModel.Producer;
 using MasterProjectDAL.DataModel;
-using MasterProjectDTOModel.Product;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,10 +18,6 @@ namespace MasterProjectWebAPI.AutoMapperProfile
     {
         public AutoMapperProfile()
         {
-            //#region Product
-            //CreateMap<ProductRequest_DTO, Product>();
-            //CreateMap<Product,ProductResponse_DTO>();
-            //#endregion
 
             #region Actor
             CreateMap<AddActorRequestDTO, Actor>();
@@ -30,7 +25,7 @@ namespace MasterProjectWebAPI.AutoMapperProfile
             #endregion
 
             #region Producer
-            CreateMap<ADDProducerRequestDTO, Producer>();
+            CreateMap<AddProducerRequestDTO, Producer>();
             CreateMap<Producer, int>();
             #endregion
 

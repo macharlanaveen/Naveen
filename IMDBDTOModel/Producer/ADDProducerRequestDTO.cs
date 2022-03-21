@@ -4,7 +4,7 @@ using System.Text;
 
 namespace IMDBDTOModel.Producer
 {
-    public class ADDProducerRequestDTO
+    public class AddProducerRequestDTO
     {
         public string Bio { get; set; }
         public DateTime? DateOfBirth { get; set; }

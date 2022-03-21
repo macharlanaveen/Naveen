@@ -21,7 +21,7 @@ namespace IMDBBAL.Producer
             _mapper = mapper;
             _producerRepository = producerRepository;
         }
-        public async Task<ResultWithDataDTO<int>> AddProducer(ADDProducerRequestDTO request_DTO)
+        public async Task<ResultWithDataDTO<int>> AddProducer(AddProducerRequestDTO request_DTO)
         {
             _loggerManager.LogInfo("Entry ProducerService=> AddProducer");
             ResultWithDataDTO<int> resultWithDataBO = new ResultWithDataDTO<int>

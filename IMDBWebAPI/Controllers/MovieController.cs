@@ -50,7 +50,6 @@ namespace IMDBWebAPI.Controllers
             if (resultWithDataDTO.IsSuccessful)
             { return Ok(resultWithDataDTO); }
             else { return BadRequest(resultWithDataDTO); }
-            //}
         }
 
         [HttpPut]
@@ -76,7 +75,6 @@ namespace IMDBWebAPI.Controllers
             if (resultWithDataDTO.IsSuccessful)
             { return Ok(resultWithDataDTO); }
             else { return BadRequest(resultWithDataDTO); }
-            //}
         }
         [HttpGet]
         [Route("[action]")]
@@ -101,7 +99,6 @@ namespace IMDBWebAPI.Controllers
             if (resultWithDataDTO.IsSuccessful)
             { return Ok(resultWithDataDTO); }
             else { return BadRequest(resultWithDataDTO); }
-            //}
         }
         [HttpPost]
         [Route("[action]")]

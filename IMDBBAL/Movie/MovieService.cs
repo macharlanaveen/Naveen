@@ -40,16 +40,17 @@ namespace IMDBBAL.Movie
 
                 if (dataResult != null)
                 {
-                    foreach(var item in request_DTO.ActorId)
-                    {
-                        IMDBDAL.DataModel.Actorhasmovie ActorMovie = new IMDBDAL.DataModel.Actorhasmovie();
-                        ActorMovie.IdMovie = dataResult.IdMovie;
-                        ActorMovie.IdActor = item;
-                        if (ActorMovie.IdActor != 0)
-                        {
-                            ActroMovieList.Add(ActorMovie);
-                        }
-                    }
+                    (from list in request_DTO.ActorId
+                     select list).ToList().ForEach((list) =>
+                     {
+                         IMDBDAL.DataModel.Actorhasmovie ActorMovie = new IMDBDAL.DataModel.Actorhasmovie();
+                         ActorMovie.IdMovie = dataResult.IdMovie;
+                         ActorMovie.IdActor = list;
+                         if (ActorMovie.IdActor != 0)
+                         {
+                             ActroMovieList.Add(ActorMovie);
+                         }
+                     });
                     if (ActroMovieList.Count > 0)
                     {
                         var response = await _movieRepository.AddActorhasmovie(ActroMovieList);
@@ -110,13 +111,17 @@ namespace IMDBBAL.Movie
                             if(deleteData != 0)
                             {
                                 List<IMDBDAL.DataModel.Actorhasmovie> ActroMovieList = new List<IMDBDAL.DataModel.Actorhasmovie>();
-                                foreach (var item in request_DTO.updateMovieRequest.ActorId)
-                                {
-                                    IMDBDAL.DataModel.Actorhasmovie ActorMovie = new IMDBDAL.DataModel.Actorhasmovie();
-                                    ActorMovie.IdMovie = Existdata.IdMovie;
-                                    ActorMovie.IdActor = item;
-                                    ActroMovieList.Add(ActorMovie);
-                                }
+                                (from list in request_DTO.updateMovieRequest.ActorId
+                                 select list).ToList().ForEach((list) =>
+                                 {
+                                     IMDBDAL.DataModel.Actorhasmovie ActorMovie = new IMDBDAL.DataModel.Actorhasmovie();
+                                     ActorMovie.IdMovie = Existdata.IdMovie;
+                                     ActorMovie.IdActor = list;
+                                     if (ActorMovie.IdActor != 0)
+                                     {
+                                         ActroMovieList.Add(ActorMovie);
+                                     }
+                                 });
                                 var response = await _movieRepository.AddActorhasmovie(ActroMovieList);
                             }
                         }
