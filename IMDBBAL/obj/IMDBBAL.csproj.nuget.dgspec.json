@@ -176,6 +176,9 @@
             "projectReferences": {
               "C:\\nani\\Naveen\\IMDBCommonUtility\\IMDBCommonUtility.csproj": {
                 "projectPath": "C:\\nani\\Naveen\\IMDBCommonUtility\\IMDBCommonUtility.csproj"
+              },
+              "C:\\nani\\Naveen\\IMDBDTOModel\\IMDBDTOModel.csproj": {
+                "projectPath": "C:\\nani\\Naveen\\IMDBDTOModel\\IMDBDTOModel.csproj"
               }
             }
           }

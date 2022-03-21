@@ -17,6 +17,7 @@ namespace IMDBDAL.DataModel
         }
 
         public virtual DbSet<Actor> Actor { get; set; }
+        public virtual DbSet<Actorhasmovie> Actorhasmovie { get; set; }
         public virtual DbSet<Movie> Movie { get; set; }
         public virtual DbSet<Producer> Producer { get; set; }
 
@@ -33,12 +34,7 @@ namespace IMDBDAL.DataModel
         {
             modelBuilder.Entity<Actor>(entity =>
             {
-                entity.HasKey(e => e.IdActor)
-                    .HasName("PRIMARY");
-
                 entity.ToTable("actor");
-
-                entity.Property(e => e.IdActor).HasColumnName("idActor");
 
                 entity.Property(e => e.Bio)
                     .HasMaxLength(45)
@@ -51,15 +47,42 @@ namespace IMDBDAL.DataModel
                     .IsUnicode(false);
             });
 
+            modelBuilder.Entity<Actorhasmovie>(entity =>
+            {
+                entity.HasKey(e => new { e.IdActor, e.IdMovie })
+                    .HasName("PRIMARY");
+
+                entity.ToTable("actorhasmovie");
+
+                entity.HasIndex(e => e.IdActor)
+                    .HasName("Id_Actor_idx");
+
+                entity.HasIndex(e => e.IdMovie)
+                    .HasName("Id_Movie_idx");
+
+                entity.Property(e => e.IdActor).HasColumnName("idActor");
+
+                entity.Property(e => e.IdMovie).HasColumnName("idMovie");
+
+                entity.HasOne(d => d.IdActorNavigation)
+                    .WithMany(p => p.Actorhasmovie)
+                    .HasForeignKey(d => d.IdActor)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("Id_Actor");
+
+                entity.HasOne(d => d.IdMovieNavigation)
+                    .WithMany(p => p.Actorhasmovie)
+                    .HasForeignKey(d => d.IdMovie)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("Id_Movie");
+            });
+
             modelBuilder.Entity<Movie>(entity =>
             {
                 entity.HasKey(e => e.IdMovie)
                     .HasName("PRIMARY");
 
                 entity.ToTable("movie");
-
-                entity.HasIndex(e => e.ActorId)
-                    .HasName("Id_Actor_idx");
 
                 entity.HasIndex(e => e.ProducerId)
                     .HasName("Id_Producer_idx");
@@ -68,14 +91,13 @@ namespace IMDBDAL.DataModel
 
                 entity.Property(e => e.DateOfRelease).HasColumnType("date");
 
-                entity.Property(e => e.MovieName)
+                entity.Property(e => e.Plot)
                     .HasMaxLength(45)
                     .IsUnicode(false);
 
-                entity.HasOne(d => d.Actor)
-                    .WithMany(p => p.Movie)
-                    .HasForeignKey(d => d.ActorId)
-                    .HasConstraintName("Id_Actor");
+                entity.Property(e => e.Poster)
+                    .HasMaxLength(150)
+                    .IsUnicode(false);
 
                 entity.HasOne(d => d.Producer)
                     .WithMany(p => p.Movie)

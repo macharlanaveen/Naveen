@@ -2369,6 +2369,20 @@
         "runtime": {
           "bin/placeholder/IMDBCommonUtility.dll": {}
         }
+      },
+      "IMDBDTOModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5",
+          "System.Data.SqlClient": "4.8.3"
+        },
+        "compile": {
+          "bin/placeholder/IMDBDTOModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IMDBDTOModel.dll": {}
+        }
       }
     }
   },
@@ -7989,11 +8003,17 @@
       "type": "project",
       "path": "../IMDBCommonUtility/IMDBCommonUtility.csproj",
       "msbuildProject": "../IMDBCommonUtility/IMDBCommonUtility.csproj"
+    },
+    "IMDBDTOModel/1.0.0": {
+      "type": "project",
+      "path": "../IMDBDTOModel/IMDBDTOModel.csproj",
+      "msbuildProject": "../IMDBDTOModel/IMDBDTOModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "IMDBCommonUtility >= 1.0.0",
+      "IMDBDTOModel >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.7",
       "Microsoft.EntityFrameworkCore >= 3.1.7",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.7",
@@ -8032,6 +8052,9 @@
           "projectReferences": {
             "C:\\nani\\Naveen\\IMDBCommonUtility\\IMDBCommonUtility.csproj": {
               "projectPath": "C:\\nani\\Naveen\\IMDBCommonUtility\\IMDBCommonUtility.csproj"
+            },
+            "C:\\nani\\Naveen\\IMDBDTOModel\\IMDBDTOModel.csproj": {
+              "projectPath": "C:\\nani\\Naveen\\IMDBDTOModel\\IMDBDTOModel.csproj"
             }
           }
         }

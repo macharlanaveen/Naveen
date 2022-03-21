@@ -11,5 +11,6 @@ namespace MasterProjectDAL.DataModel
         public DbSet<Actor> Actor { get; set; }
         public DbSet<Movie> Movie { get; set; }
         public DbSet<Producer> Producer { get; set; }
+        public DbSet<Actorhasmovie> Actorhasmovie { get; set; }
     }
 }

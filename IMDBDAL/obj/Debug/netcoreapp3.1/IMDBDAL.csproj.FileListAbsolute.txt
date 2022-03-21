@@ -19,3 +19,5 @@ C:\nani\Naveen\IMDBDAL\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Schema.Sql.U
 C:\nani\Naveen\IMDBDAL\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
 C:\nani\Naveen\IMDBDAL\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Utilities.dll
 C:\nani\Naveen\IMDBDAL\bin\Debug\netcoreapp3.1\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+C:\nani\Naveen\IMDBDAL\bin\Debug\netcoreapp3.1\IMDBDTOModel.dll
+C:\nani\Naveen\IMDBDAL\bin\Debug\netcoreapp3.1\IMDBDTOModel.pdb

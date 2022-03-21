@@ -7,14 +7,14 @@ namespace IMDBDAL.DataModel
     {
         public Actor()
         {
-            Movie = new HashSet<Movie>();
+            Actorhasmovie = new HashSet<Actorhasmovie>();
         }
 
-        public int IdActor { get; set; }
+        public int ActorId { get; set; }
         public string Bio { get; set; }
         public DateTime? DateOfBirth { get; set; }
         public string Gender { get; set; }
 
-        public virtual ICollection<Movie> Movie { get; set; }
+        public virtual ICollection<Actorhasmovie> Actorhasmovie { get; set; }
     }
 }

@@ -1,4 +1,10 @@
-﻿using IMDBDAL.DataModel;
+﻿using IMDBBAL.Actor;
+using IMDBBAL.Movie;
+using IMDBBAL.Producer;
+using IMDBDAL.ActorRepo;
+using IMDBDAL.DataModel;
+using IMDBDAL.MovieRepo;
+using IMDBDAL.ProducerRepo;
 using MasterProjectBAL.Product;
 using MasterProjectCommonUtility.Configuration;
 using MasterProjectCommonUtility.Logger;
@@ -19,10 +25,16 @@ namespace MasterProjectWebAPI.Helper
         {
             #region Bussiness Layer
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IProducerService, ProducerService>();
+            services.AddScoped<IMovieService, MovieService>();
+            services.AddScoped<IActorService, ActorService>();
             #endregion
 
             #region Data Layer
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IProducerRepository, ProducerRepository>();
+            services.AddScoped<IMovieRepository, MovieRepository>();
+            services.AddScoped<IActorRepository, ActorRepository>();
             #endregion
 
             #region Common Layer

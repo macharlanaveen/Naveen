@@ -9,6 +9,7 @@
       "IMDBDAL/1.0.0": {
         "dependencies": {
           "IMDBCommonUtility": "1.0.0",
+          "IMDBDTOModel": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.7",
           "Microsoft.EntityFrameworkCore": "3.1.7",
           "Microsoft.EntityFrameworkCore.Design": "3.1.7",
@@ -1599,6 +1600,15 @@
           "IMDBCommonUtility.dll": {}
         }
       },
+      "IMDBDTOModel/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5",
+          "System.Data.SqlClient": "4.8.3"
+        },
+        "runtime": {
+          "IMDBDTOModel.dll": {}
+        }
+      },
       "Microsoft.Data.Tools.Schema.Sql/15.0.0.0": {
         "runtime": {
           "Microsoft.Data.Tools.Schema.Sql.dll": {
@@ -2691,6 +2701,11 @@
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
     },
     "IMDBCommonUtility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IMDBDTOModel/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
