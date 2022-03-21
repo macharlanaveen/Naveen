@@ -1,0 +1,25 @@
+2022-03-20 00:42:45.5752 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Failed to add Movie Detail-Error observed during MovieName: 'RRR''.
+Kindly retry or contact System Administrator.
+2022-03-20 00:43:01.0249 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 16:: Failed to add Movie Detail-Error observed during MovieName: 'RRR''.
+Kindly retry or contact System Administrator.
+2022-03-20 00:50:05.5050 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Failed to add Movie Detail-Error observed during MovieName: 'RRR''.
+Kindly retry or contact System Administrator.
+2022-03-20 00:51:56.4112 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 20:: Failed to add Movie Detail-Error observed during MovieName: 'RRR''.
+Kindly retry or contact System Administrator.
+2022-03-20 11:37:39.0751 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Function Upload Start
+2022-03-20 11:38:02.1487 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Function Upload Start
+2022-03-20 11:39:20.0554 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 24:: Function Upload Start
+2022-03-20 11:39:46.4473 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 25:: Function Upload Start
+2022-03-20 11:40:13.3498 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 25:: Function Upload Start
+2022-03-20 11:45:17.1431 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Function Upload Start
+2022-03-20 11:45:19.9131 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Folder PathC:\nani\Naveen\IMDBWebAPI\wwwroot\images\naveen
+2022-03-20 11:45:21.5856 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 8:: Function Upload END
+2022-03-20 13:01:39.0972 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 6:: Failed to add Movie Detail-Error observed during MovieName: 'GGG''.
+Kindly retry or contact System Administrator.
+2022-03-20 13:07:18.9594 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Failed to add Movie Detail-Error observed during MovieName: 'RRR''.
+Kindly retry or contact System Administrator.
+2022-03-20 13:15:19.6089 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Failed to add Movie Detail-Error observed during MovieName: 'RRR''.
+Kindly retry or contact System Administrator.
+2022-03-20 15:01:36.8221 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Function Upload Start
+2022-03-20 15:01:36.8759 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Folder PathC:\nani\Naveen\IMDBWebAPI\wwwroot\images\naveen
+2022-03-20 15:01:36.8909 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 16:: Function Upload END

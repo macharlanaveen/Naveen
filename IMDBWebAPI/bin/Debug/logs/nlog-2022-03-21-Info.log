@@ -1,0 +1,143 @@
+2022-03-21 10:10:43.1050 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Entry MovieController=> GetMovie
+2022-03-21 10:10:43.2433 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Entry MovieService=> GetMovie
+2022-03-21 10:10:47.8868 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Movie Retrived Successfully.
+2022-03-21 10:10:47.8868 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Exit MovieController=> GetMovie
+2022-03-21 10:14:42.5276 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 21:: Entry MovieController=> AddMovie
+2022-03-21 10:14:42.5337 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 21:: Entry MovieService=> AddMovie
+2022-03-21 10:14:44.1861 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 21:: Entry MovieRepository=> AddMovie
+2022-03-21 10:14:44.4518 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 21:: Exit MovieRepository=> AddMovie
+2022-03-21 10:14:44.4544 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 21:: Entry MovieRepository=> AddActorhasmovie
+2022-03-21 10:14:44.4859 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 21:: Exit MovieRepository=> AddActorhasmovie
+2022-03-21 10:14:44.4859 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 21:: Movie Save Successfully.
+2022-03-21 10:14:44.4859 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 21:: Exit MovieController=> AddMovie
+2022-03-21 10:17:12.1383 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 7:: Entry MovieController=> UpdateMovie
+2022-03-21 10:17:12.1461 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 7:: Entry MovieService=> UpdateMovie
+2022-03-21 10:17:12.2525 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 7:: Entry MovieRepository=> UpdateMovie
+2022-03-21 10:17:12.3057 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 7:: Exit MovieRepository=> UpdateMovie
+2022-03-21 10:17:12.3199 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 7:: Entry MovieRepository=> RemoveActorhasmovie
+2022-03-21 10:17:12.3465 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 7:: Exit MovieRepository=> RemoveActorhasmovie
+2022-03-21 10:17:12.3465 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 7:: 15 from Movie Updated Successfully.
+2022-03-21 10:17:12.3465 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 7:: Exit MovieController=> UpdateMovie
+2022-03-21 10:17:44.8452 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Entry MovieController=> UpdateMovie
+2022-03-21 10:17:44.8452 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Entry MovieService=> UpdateMovie
+2022-03-21 10:17:44.8614 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Entry MovieRepository=> UpdateMovie
+2022-03-21 10:17:44.9114 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Exit MovieRepository=> UpdateMovie
+2022-03-21 10:17:44.9114 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Entry MovieRepository=> AddActorhasmovie
+2022-03-21 10:17:44.9298 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Exit MovieRepository=> AddActorhasmovie
+2022-03-21 10:17:44.9298 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: 15 from Movie Updated Successfully.
+2022-03-21 10:17:44.9298 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Exit MovieController=> UpdateMovie
+2022-03-21 10:17:59.5054 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Entry MovieController=> UpdateMovie
+2022-03-21 10:17:59.5175 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Entry MovieService=> UpdateMovie
+2022-03-21 10:17:59.5175 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Entry MovieRepository=> UpdateMovie
+2022-03-21 10:17:59.5431 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Exit MovieRepository=> UpdateMovie
+2022-03-21 10:17:59.5497 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Entry MovieRepository=> RemoveActorhasmovie
+2022-03-21 10:17:59.5497 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Exit MovieRepository=> RemoveActorhasmovie
+2022-03-21 10:17:59.5629 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: 15 from Movie Updated Successfully.
+2022-03-21 10:17:59.5629 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Exit MovieController=> UpdateMovie
+2022-03-21 10:18:14.6046 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 30:: Entry MovieController=> GetMovie
+2022-03-21 10:18:14.6046 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 30:: Entry MovieService=> GetMovie
+2022-03-21 10:18:14.6693 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 30:: Movie Retrived Successfully.
+2022-03-21 10:18:14.6693 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 30:: Exit MovieController=> GetMovie
+2022-03-21 10:22:07.2604 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Entry MovieController=> GetMovie
+2022-03-21 10:22:07.3455 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Entry MovieService=> GetMovie
+2022-03-21 10:22:10.0292 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Movie Retrived Successfully.
+2022-03-21 10:22:10.0292 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Exit MovieController=> GetMovie
+2022-03-21 10:31:02.1495 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Entry MovieController=> GetMovie
+2022-03-21 10:31:02.2069 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Entry MovieService=> GetMovie
+2022-03-21 10:31:04.4729 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Movie Retrived Successfully.
+2022-03-21 10:31:04.4729 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Exit MovieController=> GetMovie
+2022-03-21 10:31:24.7889 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 14:: Entry MovieController=> AddMovie
+2022-03-21 10:31:24.7889 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 14:: Entry MovieService=> AddMovie
+2022-03-21 10:31:26.2839 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 14:: Entry MovieRepository=> AddMovie
+2022-03-21 10:31:26.5279 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 14:: Exit MovieRepository=> AddMovie
+2022-03-21 10:31:26.5329 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 14:: Entry MovieRepository=> AddActorhasmovie
+2022-03-21 10:31:26.7648 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 14:: Failed to add Movie Detail-Error observed during MovieName: 'RRR''.
+Kindly retry or contact System Administrator.
+2022-03-21 10:31:26.7648 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 14:: Exit MovieController=> AddMovie
+2022-03-21 10:37:09.7493 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Entry MovieController=> AddMovie
+2022-03-21 10:37:09.7998 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Entry MovieService=> AddMovie
+2022-03-21 10:37:12.9371 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Entry MovieRepository=> AddMovie
+2022-03-21 10:37:14.6778 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Exit MovieRepository=> AddMovie
+2022-03-21 10:37:14.6778 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Entry MovieRepository=> AddActorhasmovie
+2022-03-21 10:37:14.8044 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Exit MovieRepository=> AddActorhasmovie
+2022-03-21 10:37:14.8044 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Movie Save Successfully.
+2022-03-21 10:37:14.8124 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Exit MovieController=> AddMovie
+2022-03-21 10:37:27.4395 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 5:: Entry MovieController=> GetMovie
+2022-03-21 10:37:27.4395 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 5:: Entry MovieService=> GetMovie
+2022-03-21 10:37:27.9206 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 5:: Movie Retrived Successfully.
+2022-03-21 10:37:27.9215 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 5:: Exit MovieController=> GetMovie
+2022-03-21 10:40:10.8788 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Entry MovieController=> GetMovie
+2022-03-21 10:40:10.9678 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Entry MovieService=> GetMovie
+2022-03-21 10:40:12.9522 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Movie Retrived Successfully.
+2022-03-21 10:40:12.9529 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Exit MovieController=> GetMovie
+2022-03-21 10:42:02.4129 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 15:: Entry MovieController=> GetMovie
+2022-03-21 10:42:02.4129 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 15:: Entry MovieService=> GetMovie
+2022-03-21 10:42:02.4710 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 15:: Movie Retrived Successfully.
+2022-03-21 10:42:02.4710 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 15:: Exit MovieController=> GetMovie
+2022-03-21 10:43:02.9546 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Entry MovieController=> GetMovie
+2022-03-21 10:43:03.0444 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Entry MovieService=> GetMovie
+2022-03-21 10:43:05.1426 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Movie Retrived Successfully.
+2022-03-21 10:43:05.1426 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Exit MovieController=> GetMovie
+2022-03-21 10:44:24.7920 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 15:: Entry MovieController=> AddMovie
+2022-03-21 10:44:24.7920 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 15:: Entry MovieService=> AddMovie
+2022-03-21 10:44:26.2976 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 15:: Entry MovieRepository=> AddMovie
+2022-03-21 10:44:26.5377 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 15:: Exit MovieRepository=> AddMovie
+2022-03-21 10:44:26.5377 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 15:: Entry MovieRepository=> AddActorhasmovie
+2022-03-21 10:44:26.8398 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 15:: Failed to add Movie Detail-Error observed during MovieName: 'RRR''.
+Kindly retry or contact System Administrator.
+2022-03-21 10:44:26.8398 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 15:: Exit MovieController=> AddMovie
+2022-03-21 10:44:56.1141 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 19:: Entry MovieController=> AddMovie
+2022-03-21 10:44:56.1141 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 19:: Entry MovieService=> AddMovie
+2022-03-21 10:45:00.3560 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 19:: Entry MovieRepository=> AddMovie
+2022-03-21 10:45:00.3813 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 19:: Exit MovieRepository=> AddMovie
+2022-03-21 10:48:02.3127 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Entry MovieController=> GetMovie
+2022-03-21 10:48:02.3660 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Entry MovieService=> GetMovie
+2022-03-21 10:48:04.1264 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Movie Retrived Successfully.
+2022-03-21 10:48:04.1264 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Exit MovieController=> GetMovie
+2022-03-21 10:48:33.6217 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 15:: Entry MovieController=> GetMovie
+2022-03-21 10:48:33.6259 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 15:: Entry MovieService=> GetMovie
+2022-03-21 10:48:33.6782 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 15:: Movie Retrived Successfully.
+2022-03-21 10:48:33.6782 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 15:: Exit MovieController=> GetMovie
+2022-03-21 10:49:00.3152 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 19:: Entry MovieController=> GetMovie
+2022-03-21 10:49:00.3152 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 19:: Entry MovieService=> GetMovie
+2022-03-21 10:49:00.3314 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 19:: Movie Retrived Successfully.
+2022-03-21 10:49:00.3314 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 19:: Exit MovieController=> GetMovie
+2022-03-21 11:07:21.8419 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Entry MovieController=> GetMovie
+2022-03-21 11:07:21.9035 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Entry MovieService=> GetMovie
+2022-03-21 11:07:23.6283 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Movie Retrived Successfully.
+2022-03-21 11:07:23.6283 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Exit MovieController=> GetMovie
+2022-03-21 11:16:00.3126 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Entry MovieController=> AddMovie
+2022-03-21 11:16:00.3727 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Entry MovieService=> AddMovie
+2022-03-21 11:16:00.4008 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Entry MovieRepository=> AddMovie
+2022-03-21 11:16:02.5727 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Failed to add Movie Detail-Error observed during MovieName: 'string''.
+Kindly retry or contact System Administrator.
+2022-03-21 11:16:02.5727 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 4:: Exit MovieController=> AddMovie
+2022-03-21 11:17:00.6088 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 16:: Entry MovieController=> GetMovie
+2022-03-21 11:17:00.6088 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 16:: Entry MovieService=> GetMovie
+2022-03-21 11:17:01.1184 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 16:: Movie Data Retrived Successfully.
+2022-03-21 11:17:01.1184 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 16:: Exit MovieController=> GetMovie
+2022-03-21 11:17:24.0376 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 20:: Entry MovieController=> GetMovie
+2022-03-21 11:17:24.0376 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 20:: Entry MovieService=> GetMovie
+2022-03-21 11:17:24.0677 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 20:: Movie Data Retrived Successfully.
+2022-03-21 11:17:24.0677 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 20:: Exit MovieController=> GetMovie
+2022-03-21 11:19:14.7487 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 24:: Entry MovieController=> AddMovie
+2022-03-21 11:19:14.7523 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 24:: Entry MovieService=> AddMovie
+2022-03-21 11:19:14.7523 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 24:: Entry MovieRepository=> AddMovie
+2022-03-21 11:19:14.8418 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 24:: Exit MovieRepository=> AddMovie
+2022-03-21 11:19:14.8441 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 24:: Entry MovieRepository=> AddActorhasmovie
+2022-03-21 11:19:14.8984 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 24:: Exit MovieRepository=> AddActorhasmovie
+2022-03-21 11:19:14.8984 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 24:: Movie Save Successfully.
+2022-03-21 11:19:14.8984 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 24:: Exit MovieController=> AddMovie
+2022-03-21 11:20:57.1169 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Entry MovieController=> GetMovie
+2022-03-21 11:20:57.1381 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Entry MovieService=> GetMovie
+2022-03-21 11:20:57.1837 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Movie Data Retrived Successfully.
+2022-03-21 11:20:57.1837 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 26:: Exit MovieController=> GetMovie
+2022-03-21 11:27:49.9669 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 34:: Function Upload Start
+2022-03-21 11:27:49.9758 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 34:: Folder PathC:\nani\Naveen\IMDBWebAPI\wwwroot\images\naveen
+2022-03-21 11:27:49.9919 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 37:: Function Upload END
+2022-03-21 11:31:45.5334 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Entry ActorController=> AddActor
+2022-03-21 11:31:45.5957 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Entry ActorService=> AddActor
+2022-03-21 11:31:45.6217 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Entry ActorRepository=> AddActor
+2022-03-21 11:31:47.2790 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Exit ActorRepository=> AddActor
+2022-03-21 11:31:47.2836 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Actor Save Successfully.
+2022-03-21 11:31:47.2836 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Exit ActorController=> AddActor

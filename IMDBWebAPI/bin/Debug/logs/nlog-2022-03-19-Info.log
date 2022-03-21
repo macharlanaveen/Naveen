@@ -1,0 +1,18 @@
+2022-03-19 21:41:26.1946 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Entry ProductController=> AddActor
+2022-03-19 21:41:26.3439 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Entry ActorService=> AddActor
+2022-03-19 21:41:26.3878 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Entry ActorRepository=> AddActor
+2022-03-19 21:41:29.0021 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Failed to add Actor Detail-Error observed during Bio: 'Ravi''.
+Kindly retry or contact System Administrator.
+2022-03-19 21:41:29.0021 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 13:: Exit ProductController=> AddActor
+2022-03-19 21:42:45.5977 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Entry ProductController=> AddProducer
+2022-03-19 21:42:45.5977 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Entry ProducerService=> AddProducer
+2022-03-19 21:42:45.6191 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Entry ProducerRepository=> AddProducer
+2022-03-19 21:42:45.7112 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Exit ProducerRepository=> AddProducer
+2022-03-19 21:42:45.7198 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Actor Save Successfully.
+2022-03-19 21:42:45.7198 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 9:: Exit ProductController=> AddProducer
+2022-03-19 21:44:42.3758 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 5:: Entry ProductController=> AddActor
+2022-03-19 21:44:42.4271 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 5:: Entry ActorService=> AddActor
+2022-03-19 21:44:42.4527 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 5:: Entry ActorRepository=> AddActor
+2022-03-19 21:44:44.0901 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 5:: Exit ActorRepository=> AddActor
+2022-03-19 21:44:44.0962 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 5:: Actor Save Successfully.
+2022-03-19 21:44:44.0962 MasterProjectCommonUtility.Logger.LoggerManager Thread Id: 5:: Exit ProductController=> AddActor
